@@ -1,7 +1,5 @@
 FROM ubuntu:18.04
 
-MAINTAINER Adrian Mark Perea "adrianmarkperea@gmail.com"
-
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
 
